@@ -207,3 +207,18 @@ has entered the room
 7:25 AM
 janwillem 	
 Thanks!
+
+ 7:35 AM
+matthewmccullough 	
+https://github.com/jch/html-pipeline
+	
+View paste
+
+https://github.com/jch/html-pipeline
+
+	
+View paste
+
+https://github.com/vmg/redcarpet
+
+
