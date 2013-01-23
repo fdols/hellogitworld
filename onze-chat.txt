@@ -1,0 +1,209 @@
+
+
+Welcome to the chat. You can see who's currently in the room by looking to the right. Say "Hello" to everyone by just typing in the box below and hitting return.
+frank 	
+has entered the room
+Jan 23 	
+12:10 AM
+eteeselink 	
+~
+janwillem 	
+has left the room
+matthewmccullough 	
+Test
+janwillem 	
+has entered the room
+pengwynn 	
+this is helpful since Matthew and I speak emoji, too: http://www.emoji-cheat-sheet.com/
+	
+12:15 AM
+matthewmccullough 	
+git init project1
+	
+git config user.name
+	
+git config --global user.name "Matthew McCullough"
+	
+12:25 AM
+matthewmccullough 	
+https://github.com/githubtrainer/hellogitworld
+	
+View paste
+
+https://github.com/githubtrainer/hellogitworld
+
+Pierre U. 	
+has entered the room
+Fred v. 	
+we're back!
+Sander S. 	
+has entered the room
+Loy v. 	
+ping...
+Frank K. 	
+https://github.com/githubtrainer/hellogitworld
+Lilian S. 	
+has entered the room
+	
+12:30 AM
+matthewmccullough 	
+View paste
+
+https://github.com/githubtrainer/hellogitworld
+
+Dwight B. 	
+pong...
+matthewmccullough 	
+Fork
+Loy v. 	
+in Linux, selecting text and then clicking with the scroll wheel pastes the text
+	
+kinda handy
+matthewmccullough 	
+git config --global color.ui auto
+	
+12:35 AM
+matthewmccullough 	
+sudo apt-get install gitk
+janwillem 	
+use vim
+	
+12:40 AM
+Jeroen v. 	
+has entered the room
+Martin v. 	
+You probably want to set keyboard layout to US international without dead keys, so " etc pop up immediately
+	
+settings icon, keyboard, layout settings (left bottom corner), + marker, enter 'English (US' and look for 'with euro on 5'. Then move that up using the ^ icon
+	
+12:45 AM
+Martin v. 	
++ marker is at the bottom of the left column in 'keyboard layout'
+	
+just DON'T pick dvorak...
+matthewmccullough 	
+View paste
+
+git push -u origin YOURBRANCHNAME
+
+	
+12:50 AM
+Martin v. 	
+what was the trick to store the password temporarily?
+matthewmccullough 	
+git config --global credential.helper 'cache --timeout=300'
+	
+1:15 AM
+matthewmccullough 	
+https://github.com/matthewmccullough/dotfiles
+	
+View paste
+
+https://github.com/matthewmccullough/dotfiles
+
+	
+1:25 AM
+Loy v. 	
+terminator is a handy console. (sudo apt-get install terminator). You can enable color through your ~/.bashrc : set or uncomment force_color_prompt=yes for colors
+eteeselink 	
+i recommend cmd.exe
+	
+1:30 AM
+pengwynn 	
+for more dotfile goodness: http://dotfiles.github.com Share those dots!
+Benny L. 	
+has entered the room
+	
+2:00 AM
+pengwynn 	
+https://github.com/pengwynn/octokit/pull/200
+	
+3:25 AM
+pengwynn 	
+Matthew is using a fair number of `git log` shortcuts. You can see what they're doing here: https://github.com/matthewmccullough/dotfiles/b...
+	
+3:35 AM
+matthewmccullough 	
+View paste
+
+git ls-remote https://github.com/githubtrainer/hellogitworld
+
+	
+4:00 AM
+Sam J. 	
+has left the room
+Nicky G. 	
+has left the room
+	
+4:20 AM
+pengwynn 	
+has left the room
+	
+4:30 AM
+pengwynn 	
+has entered the room
+eteeselink 	
+pengwynn, saw http://caiustheory.com/evil-rb ?
+	
+4:35 AM
+Sam J. 	
+has entered the room
+pengwynn 	
+eteeselink: ha nice
+	
+4:50 AM
+eteeselink 	
+love the instance_eval hack
+	
+5:10 AM
+crooy 	
+has left the room
+	
+5:50 AM
+crooy 	
+has entered the room
+	
+6:00 AM
+eteeselink 	
+has left the room
+	
+6:45 AM
+matthewmccullough 	
+http://developer.github.com
+	
+http://teach.github.com/cheatsheets/
+	
+http://teach.github.com/articles/git-cheatsheets/
+	
+I like: http://githubtraining.s3.amazonaws.com/dzone-gi... (disclaimer: I wrote this one)
+	
+I like the visualization of this one http://ndpsoftware.com/git-cheatsheet.html
+eteeselink 	
+has entered the room
+	
+6:50 AM
+matthewmccullough 	
+View paste
+
+Using the GitHub API is a great way to automate some batch activities for Git
+
+	
+You can "get all the changes of all pull requests for a certain project"
+	
+6:55 AM
+matthewmccullough 	
+If you need a GitHub Foundations slide deck, we are working on (95% done) with a pure-web copy of the slides: http://teach.github.com/presentations/git-found...
+	
+http://dotfiles.github.com
+	
+7:00 AM
+Benny L. 	
+has left the room
+	
+7:05 AM
+Nicky G. 	
+has entered the room
+	
+7:25 AM
+janwillem 	
+Thanks!
