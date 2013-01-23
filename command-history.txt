@@ -1,0 +1,282 @@
+    1  sudo apt-get install git-core
+    2  exit
+    3  pwd
+    4  ls
+    5  ll
+    6  more .basrc
+    7  more .bashrc
+    8  grep -i prompt .bashrc 
+    9  vim .bashrc
+   10  wi
+   11  vi
+   12  vi .bashrc 
+   13  printenv
+   14  printenv | grep -i prompt
+   15  export prompt=>$ 
+   16  ls
+   17  ll
+   18  ls -a
+   19  ls
+   20  mkdir git
+   21  cd git/
+   22  ls
+   23  pwd
+   24  la
+   25  git help init
+   26  git init project1
+   27  ls
+   28  git gui&
+   29  gitx&
+   30  ls -a
+   31  cd project1/
+   32  ls
+   33  ls -a
+   34  gitk
+   35  pwd
+   36  git config frank.dols
+   37  ls -al
+   38  git config --global user.name ¨Frank Dols
+   39  git config user.name
+   40  git config --global user.name ¨Frank Dols¨
+   41  git config user.name
+   42  ls
+   43  git config --global user.email ¨Frank.Dols@synopsys.com¨
+   44  vi .git/config 
+   45  ls
+   46  cd ..
+   47  ls
+   48  la
+   49  ls -a
+   50  cd ..
+   51  ls -a
+   52  cd git
+   53  cd ..
+   54  ls
+   55  git init project1
+   56  cd project1/
+   57  vi
+   58  vi .git/config
+   59  git config --global -e
+   60  more .git/config 
+   61  ls
+   62  pwd
+   63  ls
+   64  la
+   65  sudo appget --install jedit
+   66  man appget
+   67  jedit
+   68  sudo apt-get install jedit
+   69  pwd
+   70  git clone https://github.com/fdols/hellogitworld.git
+   71  ll
+   72  cd hellogitworld/
+   73  ls
+   74  pwd
+   75  cd ..
+   76  ls
+   77  pwd
+   78  cd ..
+   79  ls
+   80  pwd
+   81  git clone https://github.com/fdols/hellogitworld.git
+   82  ls
+   83  cd hellogitworld/
+   84  ls
+   85  git status
+   86  git log
+   87  ls
+   88  git config --global color.ui auto
+   89  git status
+   90  git log
+   91  ls
+   92  git branch frank-dols-1
+   93  git branch
+   94  gitk&
+   95  sudo apt-get install gitk
+   96  sudo apt-get install gitgui
+   97  gitk
+   98  git gui&
+   99  gitk&
+  100  sudo apt-get install git gui
+  101  gitk&
+  102  ls
+  103  git branch
+  104  ps -aux > frank-dols-file-1.txt
+  105  more frank-dols-file-1.txt
+  106  ls
+  107  git gui&
+  108  gui
+  109  git
+  110  ls
+  111  git status
+  112  git add frank-dols-file-1.txt
+  113  git commit -m¨mijn eerste commit¨
+  114  git statrus
+  115  git status
+  116  git commit -m
+  117  git status
+  118  git commit
+  119  git status
+  120  sudo apt-get install git-core
+  121  git gui&
+  122  ls
+  123  __
+  124  ______
+  125  "
+
+
+
+
+
+
+q
+  126  git push -u origin 
+  127  sudo apt-get install gitk giggle git-cola git-gui gitg
+  128  git gui&
+  129  pwd
+  130  la
+  131  jedit .git/config
+  132  ls
+  133  pwd
+  134  echo hallo >> frank-dols-file-1.txt 
+  135  git status
+  136  git commit
+  137  git commit -a
+  138  git status
+  139  pwd
+  140  ls
+  141  git branch
+  142  git checkout frank-dols-1
+  143  git branch
+  144  ls
+  145  git log
+  146  ls
+  147  pwd
+  148  ll >> README.txt 
+  149  git staus
+  150  git branch
+  151  git status
+  152  git branch
+  153  git checkout master
+  154  git branch
+  155  git chekcout frank-dols-1
+  156  git checkout frank-dols-1
+  157  export force_color_prompt=yes
+  158  ps
+  159  ls
+  160  pwd
+  161  git status
+  162  git log
+  163  ls
+  164  ll
+  165  more .git/config
+  166  ls
+  167  git user
+  168  ls -a ..
+  169  more ../.gitconfig 
+  170  jedit ../.gitconfig 
+  171  ls
+  172  pwd
+  173  git branch
+  174  echo change1 > tomonfeaturebranch1.txt 
+  175  git commit -a -m"dlkjfa"
+  176  ps >> tomonfeaturebranch1.txt 
+  177  git commit -a -m"thats it"
+  178  ls
+  179  more tomonfeaturebranch1.txt 
+  180  ls
+  181  git branch
+  182  git checkout master
+  183  ls
+  184  echo feature1-added-to-this >> tomonfeaturebranch1.txt 
+  185  git commit -a -m"feature1-add"
+  186  echo feature2-added-to-this >> tomonfeaturebranch1.txt 
+  187  git commit -a -m"feature2-add"
+  188  git log
+  189  git rebase master
+  190  git help rebase
+  191  git branch
+  192  git checkout frank-dols-1 
+  193  git rebase master
+  194  git status
+  195  merge tomonfeaturebranch1.txt 
+  196  jedit tomonfeaturebranch1.txt 
+  197  git status
+  198  git commit -a
+  199  git status
+  200  more tomonfeaturebranch1.txt~
+  201  s
+  202  jedit .gitignore 
+  203  git status
+  204  git commit
+  205  git commit -a
+  206  ls
+  207  git status
+  208  git commit -a
+  209  git status
+  210  git branch
+  211  git checkout frank-dols-1 
+  212  ls
+  213  git statsu
+  214  git status
+  215  jedit .gitignore
+  216  git commit -a
+  217  git status
+  218  git branch
+  219  ls
+  220  git push origin
+  221  gitk -all
+  222  git log
+  223  ll
+  224  ps x >> tomonfeaturebranch1.txt
+  225  ll >> tomonfeaturebranch2.txt
+  226  git commit -a
+  227  ll
+  228  git status
+  229  git add
+  230  git add .
+  231  ll
+  232  git status
+  233  git commit -a
+  234  ls
+  235  git status
+  236  git branch
+  237  echo "kjfas;lj80980980980708098076" >> tomonfeaturebranch2.txt 
+  238  git commit -a
+  239  ll
+  240  git status
+  241  git reflog
+  242  git branch
+  243  git reset --hard frank-dols-1~1
+  244  git reflog
+  245  git log
+  246  git status
+  247  touch dit-word-heb-dan-stash.txt
+  248  ls
+  249  cat .gitignore > dit-word-heb-dan-stash.txt 
+  250  git statsu
+  251  git status
+  252  git help stash
+  253  git stash "My first shot..."
+  254  git stash -a "My first shot..."
+  255  git stash -a <My first shot...>
+  256  git stash log
+  257  git stash
+  258  ls
+  259  git stash list
+  260  ls
+  261  ll
+  262  git status
+  263  git stash
+  264  git branch
+  265  git stash
+  266  git stash -a
+  267  git stash list
+  268  git reflog
+  269  git reset --soft frank-dols-1~2
+  270  git statsu
+  271  git status
+  272  ls
+  273  git show tomonfeaturebranch1.txt~2
+  274  git show frank-dols-1~2:tomonfeaturebranch1.txt
+  275  history > command-history.txt
