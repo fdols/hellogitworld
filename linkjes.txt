@@ -10,3 +10,24 @@ https://github.com/matthewmccullough/dotfiles/blob/master/gitconfig#L58-L64
 http://caiustheory.com/evil-rb
 
 
+user@user-ThinkPad-T61:~/hellogitworld$ more linkjes.txt
+
+mijn handige linkjes:
+
+http://www.emoji-cheat-sheet.com/
+
+https://github.com/pengwynn
+http://dotfiles.github.com/
+
+https://github.com/pengwynn
+
+
+
+https://github.com/matthewmccullough/dotfiles/blob/master/gitconfig#L58-L64
+
+http://caiustheory.com/evil-rb
+
+http://developer.github.com/
+
+user@user-ThinkPad-T61:~/hellogitworld$ 
+
