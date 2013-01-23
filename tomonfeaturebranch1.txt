@@ -87,3 +87,4 @@ change1
 10018 ?        Sl     0:04 /usr/bin/gtk-gnash -u https://github.com/flash/ZeroClipboard.swf?nocache=1358933758202 -U https://github.com/fdols/hellogitworld/tree/frank-dols-1 -x 67450515 -j 15 -k 15 -F 27:35 -P allowfullscreen=false -P allowscriptaccess=always -P bgcolor=#ffffff -P flashvars= -P height=100% -P loop=false -P menu=false -P name=global-zeroclipboard-flash-bridge -P pluginspage=http://www.macromedia.com/go/getflashplayer -P quality=best -P scale=exactfit -P src=/flash/ZeroClipboard.swf?nocache=1358933758202 -P type=application/x-shockwave-flash -P width=100% -P wmode=transparent -
 10681 pts/1    Z      0:00 [wish] <defunct>
 10749 pts/1    R+     0:00 ps x
+CHANGE
