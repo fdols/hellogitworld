@@ -1,1 +1,8 @@
 change1
+  PID TTY          TIME CMD
+ 3411 pts/1    00:00:01 bash
+ 9412 pts/1    00:00:00 git
+ 9413 pts/1    00:00:06 wish
+ 9423 pts/1    00:00:00 aspell
+ 9858 pts/1    00:00:00 wish
+10055 pts/1    00:00:00 ps
