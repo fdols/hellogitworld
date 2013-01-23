@@ -1,0 +1,178 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   3620  2008 ?        Ss   Jan22   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Jan22   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jan22   0:00 [ksoftirqd/0]
+root         4  0.0  0.0      0     0 ?        S    Jan22   0:00 [kworker/0:0]
+root         6  0.0  0.0      0     0 ?        S    Jan22   0:00 [migration/0]
+root         7  0.0  0.0      0     0 ?        S    Jan22   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S<   Jan22   0:00 [cpuset]
+root        13  0.0  0.0      0     0 ?        S<   Jan22   0:00 [khelper]
+root        14  0.0  0.0      0     0 ?        S    Jan22   0:00 [kdevtmpfs]
+root        15  0.0  0.0      0     0 ?        S<   Jan22   0:00 [netns]
+root        17  0.0  0.0      0     0 ?        S    Jan22   0:00 [sync_supers]
+root        18  0.0  0.0      0     0 ?        S    Jan22   0:00 [bdi-default]
+root        19  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kintegrityd]
+root        20  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kblockd]
+root        22  0.0  0.0      0     0 ?        S<   Jan22   0:00 [ata_sff]
+root        23  0.0  0.0      0     0 ?        S    Jan22   0:00 [khubd]
+root        24  0.0  0.0      0     0 ?        S<   Jan22   0:00 [md]
+root        26  0.0  0.0      0     0 ?        S    Jan22   0:00 [khungtaskd]
+root        27  0.0  0.0      0     0 ?        S    Jan22   0:00 [kswapd0]
+root        28  0.0  0.0      0     0 ?        SN   Jan22   0:00 [ksmd]
+root        29  0.0  0.0      0     0 ?        SN   Jan22   0:00 [khugepaged]
+root        30  0.0  0.0      0     0 ?        S    Jan22   0:00 [fsnotify_mark]
+root        31  0.0  0.0      0     0 ?        S    Jan22   0:00 [ecryptfs-kthrea]
+root        32  0.0  0.0      0     0 ?        S<   Jan22   0:00 [crypto]
+root        41  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kthrotld]
+root        44  0.0  0.0      0     0 ?        S    Jan22   0:00 [scsi_eh_0]
+root        45  0.0  0.0      0     0 ?        S    Jan22   0:00 [scsi_eh_1]
+root        46  0.0  0.0      0     0 ?        S    Jan22   0:00 [scsi_eh_2]
+root        48  0.0  0.0      0     0 ?        S    Jan22   0:00 [scsi_eh_3]
+root        51  0.0  0.0      0     0 ?        S<   Jan22   0:00 [binder]
+root        71  0.0  0.0      0     0 ?        S<   Jan22   0:00 [deferwq]
+root        72  0.0  0.0      0     0 ?        S<   Jan22   0:00 [charger_manager]
+root        73  0.0  0.0      0     0 ?        S    Jan22   0:02 [kworker/0:2]
+root        74  0.0  0.0      0     0 ?        S<   Jan22   0:00 [devfreq_wq]
+root       221  0.0  0.0      0     0 ?        S<   Jan22   0:00 [firewire]
+root       238  0.0  0.0      0     0 ?        S    Jan22   0:00 [jbd2/sda1-8]
+root       239  0.0  0.0      0     0 ?        S<   Jan22   0:00 [ext4-dio-unwrit]
+root       327  0.0  0.0   2916   968 ?        S    Jan22   0:00 upstart-udev-bridge --daemon
+root       330  0.0  0.0   3436  1716 ?        Ss   Jan22   0:00 /sbin/udevd --daemon
+root       434  0.0  0.0      0     0 ?        S<   Jan22   0:00 [cfg80211]
+root       479  0.0  0.0      0     0 ?        S<   Jan22   0:00 [iwl4965]
+root       520  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kpsmoused]
+root       530  0.0  0.0      0     0 ?        S<   Jan22   0:00 [ktpacpid]
+root       531  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kmemstick]
+root       672  0.0  0.0   2816   600 ?        S    Jan22   0:00 upstart-socket-bridge --daemon
+root       678  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kvm-irqfd-clean]
+root       683  0.0  0.0      0     0 ?        S    Jan22   0:00 [pccardd]
+root       688  0.0  0.0      0     0 ?        S    Jan22   0:00 [r592_io]
+root       690  0.0  0.0      0     0 ?        S<   Jan22   0:00 [r852]
+syslog     758  0.0  0.0  31072  1476 ?        Sl   Jan22   0:00 rsyslogd -c5
+102        764  0.0  0.1   4500  2240 ?        Ss   Jan22   0:02 dbus-daemon --system --fork
+root       776  0.0  0.1   7424  3056 ?        Ss   Jan22   0:00 /usr/sbin/modem-manager
+root       777  0.0  0.0   4784  1640 ?        Ss   Jan22   0:00 /usr/sbin/bluetoothd
+root       790  0.0  0.2  33168  5480 ?        Ssl  Jan22   0:01 NetworkManager
+avahi      793  0.0  0.0   3592  1880 ?        S    Jan22   0:01 avahi-daemon: running [user-ThinkPad-T61-13.local]
+avahi      796  0.0  0.0   3448   432 ?        S    Jan22   0:00 avahi-daemon: chroot helper
+root       813  0.0  0.2  27676  4128 ?        Sl   Jan22   0:01 /usr/lib/policykit-1/polkitd --no-debug
+root       816  0.0  0.0      0     0 ?        S<   Jan22   0:00 [krfcommd]
+root       845  0.0  0.1   7420  2908 ?        Ss   Jan22   0:00 /usr/sbin/cupsd -F
+root       886  0.0  0.0   4632   880 tty4     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty4
+root       894  0.0  0.0   4632   868 tty5     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty5
+root       904  0.0  0.0   4632   876 tty2     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty2
+root       905  0.0  0.0   4632   868 tty3     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty3
+root       909  0.0  0.0   4632   884 tty6     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty6
+whoopsie   928  0.0  0.2  26484  5684 ?        Ssl  Jan22   0:00 whoopsie
+root       930  0.0  0.0   2304   736 ?        Ss   Jan22   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root       960  0.0  0.0   3432  1356 ?        S    Jan22   0:00 /sbin/udevd --daemon
+root       973  0.0  0.0      0     0 ?        S<   Jan22   0:00 [hd-audio0]
+root       986  0.0  0.0   2620   884 ?        Ss   Jan22   0:00 cron
+daemon     987  0.0  0.0   2476   120 ?        Ss   Jan22   0:00 atd
+root      1000  0.0  1.5  34120 31072 ?        SLsl Jan22   0:00 lightdm
+root      1069  0.2  0.9  47980 19024 tty7     Rs+  Jan22   1:48 /usr/bin/X :0 -core -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch -background none
+root      1176  0.0  0.1  16532  3236 ?        Sl   Jan22   0:00 lightdm --session-child 12 15
+root      1185  0.0  0.1  24732  3228 ?        Sl   Jan22   0:00 /usr/lib/accountsservice/accounts-daemon
+root      1186  0.0  0.1   6136  2068 ?        Ss   Jan22   0:00 /sbin/wpa_supplicant -B -P /run/sendsigs.omit.d/wpasupplicant.pid -u -s -O /var/run/wpa_supplicant
+root      1202  0.0  0.0   4632   876 tty1     Ss+  Jan22   0:00 /sbin/getty -8 38400 tty1
+root      1223  0.0  0.1  30320  3516 ?        Sl   Jan22   0:00 /usr/sbin/console-kit-daemon --no-daemon
+user      1298  0.0  0.4  51432  9880 ?        Ssl  Jan22   0:00 gnome-session --session=ubuntu
+user      1334  0.0  0.0   3844   532 ?        S    Jan22   0:00 dbus-launch --autolaunch=04fc931f206cc43574c6915750d2b91f --binary-syntax --close-stderr
+user      1337  0.0  0.0   3248   412 ?        Ss   Jan22   0:00 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+user      1338  0.0  0.0   4096   204 ?        Ss   Jan22   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu
+user      1341  0.0  0.0   3844   528 ?        S    Jan22   0:00 /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu
+user      1342  0.0  0.1   5924  2800 ?        Ss   Jan22   0:01 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+user      1344  0.0  0.1  43512  3168 ?        Sl   Jan22   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+user      1348  0.0  0.0   3512  1604 ?        S    Jan22   0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+user      1351  0.0  0.1  17092  3092 ?        Sl   Jan22   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+user      1361  0.0  0.1  71472  3648 ?        Sl   Jan22   0:00 /usr/bin/gnome-keyring-daemon --start --components=gpg
+user      1366  0.0  0.8 228892 16868 ?        Sl   Jan22   0:01 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+root      1372  0.0  0.1  28660  3948 ?        Sl   Jan22   0:00 /usr/lib/upower/upowerd
+user      1436  0.0  0.1  26880  2860 ?        Sl   Jan22   0:00 /usr/lib/gvfs/gvfsd
+user      1449  0.0  0.1  42764  3008 ?        Sl   Jan22   0:00 /usr/lib/gvfs//gvfsd-fuse -f /run/user/user/gvfs
+colord    1544  0.0  0.2  35508  4252 ?        Sl   Jan22   0:00 /usr/lib/i386-linux-gnu/colord/colord
+user      1551  0.1  3.4 212244 69000 ?        Sl   Jan22   1:12 compiz
+user      1560  0.0  0.5  88108 11804 ?        Sl   Jan22   0:00 bluetooth-applet
+user      1561  0.0  0.6  81148 13284 ?        Sl   Jan22   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+user      1563  0.0  0.1  33600  2464 ?        Sl   Jan22   0:00 /usr/lib/dconf/dconf-service
+user      1567  0.0  0.4  58688  9100 ?        Sl   Jan22   0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+user      1570  0.0  0.7 128312 15396 ?        Sl   Jan22   0:01 nm-applet
+user      1572  0.0  1.3 156804 27620 ?        Sl   Jan22   0:05 nautilus -n
+user      1580  0.0  0.0   3724   796 ?        S    Jan22   0:02 syndaemon -i 2.0 -K -R -t
+user      1588  0.0  0.2  99640  5508 ?        S<l  Jan22   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1590  0.0  0.0  21336  1252 ?        SNl  Jan22   0:00 /usr/lib/rtkit/rtkit-daemon
+user      1599  0.0  0.1  28500  4028 ?        Sl   Jan22   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      1602  0.0  0.2  42948  4212 ?        Sl   Jan22   0:01 /usr/lib/udisks2/udisksd --no-debug
+user      1611  0.0  0.1  14220  2508 ?        S    Jan22   0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+user      1613  0.0  0.1   9348  2808 ?        S    Jan22   0:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+user      1624  0.0  0.1  38796  2604 ?        Sl   Jan22   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+user      1629  0.0  0.1  27364  2624 ?        Sl   Jan22   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+user      1634  0.0  0.1  44588  3360 ?        Sl   Jan22   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+user      1641  0.0  0.5  78964 11364 ?        Sl   Jan22   0:01 /usr/lib/bamf/bamfdaemon
+user      1645  0.0  0.0   2232   536 ?        Ss   Jan22   0:00 /bin/sh -c /usr/bin/gtk-window-decorator
+user      1646  0.0  0.5  41612 10712 ?        Sl   Jan22   0:02 /usr/bin/gtk-window-decorator
+nobody    1649  0.0  0.0   5468  1420 ?        S    Jan22   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/nm-dns-dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+user      1760  0.0  0.1  35864  2384 ?        Sl   Jan22   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.10 /org/gtk/gvfs/exec_spaw/1
+user      1772  0.0  0.6  71932 13464 ?        Sl   Jan22   0:00 /usr/lib/notify-osd/notify-osd
+user      1775  0.0  0.2  62696  4952 ?        Sl   Jan22   0:01 /usr/lib/indicator-appmenu/hud-service
+user      1776  0.0  0.8 100692 17780 ?        Sl   Jan22   0:03 /usr/lib/unity/unity-panel-service
+user      1794  0.0  0.4  75908  8340 ?        Sl   Jan22   0:01 /usr/lib/indicator-datetime/indicator-datetime-service
+user      1799  0.0  0.4  62204 10080 ?        Sl   Jan22   0:00 /usr/lib/indicator-printers/indicator-printers-service
+user      1800  0.0  0.2  64372  4252 ?        Sl   Jan22   0:00 /usr/lib/indicator-messages/indicator-messages-service
+user      1801  0.0  0.2  62444  4428 ?        Sl   Jan22   0:00 /usr/lib/i386-linux-gnu/indicator-application-service
+user      1803  0.0  0.2  64852  4668 ?        Sl   Jan22   0:00 /usr/lib/indicator-session/indicator-session-service
+user      1804  0.0  0.2 135976  5844 ?        Sl   Jan22   0:00 /usr/lib/indicator-sound/indicator-sound-service
+user      1825  0.0  0.2  73436  6012 ?        Sl   Jan22   0:00 /usr/lib/evolution/evolution-source-registry
+user      1842  0.0  0.5  42272 10444 ?        Sl   Jan22   0:00 /usr/bin/gnome-screensaver --no-daemon
+user      1850  0.0  0.5 108432 10372 ?        Sl   Jan22   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+user      1854  0.0  0.2  30688  4772 ?        Sl   Jan22   0:00 /usr/lib/geoclue/geoclue-master
+user      1894  0.0  0.2  40536  5696 ?        Sl   Jan22   0:00 /usr/lib/ubuntu-geoip/ubuntu-geoip-provider
+user      1899  0.0  0.5  84516 11104 ?        Sl   Jan22   0:00 telepathy-indicator
+user      1905  0.0  0.3  43536  6320 ?        Sl   Jan22   0:00 /usr/lib/telepathy/mission-control-5
+user      1912  0.0  0.9 109796 19192 ?        Sl   Jan22   0:00 /usr/bin/signon-ui
+user      1915  0.0  0.2  53480  4476 ?        Sl   Jan22   0:00 zeitgeist-datahub
+user      1921  0.0  0.2  43676  4296 ?        Sl   Jan22   0:00 /usr/bin/zeitgeist-daemon
+user      1927  0.0  0.3  51252  7572 ?        Sl   Jan22   0:00 /usr/lib/zeitgeist/zeitgeist-fts
+user      1929  0.0  0.0   4228   280 ?        S    Jan22   0:00 /bin/cat
+user      1947  0.0  0.4  74380  9920 ?        Sl   Jan22   0:00 /usr/lib/unity-lens-applications/unity-applications-daemon
+user      1949  0.0  0.2  77264  5728 ?        Sl   Jan22   0:00 /usr/lib/unity-lens-files/unity-files-daemon
+user      1951  0.0  0.2  88072  5868 ?        Sl   Jan22   0:00 /usr/lib/gwibber/unity-gwibber-daemon
+user      1953  0.0  0.3  77780  7044 ?        Sl   Jan22   0:00 /usr/lib/i386-linux-gnu/unity-music-daemon
+user      1955  0.0  0.9 113084 19256 ?        Sl   Jan22   0:00 /usr/bin/python3 /usr/lib/unity-lens-photos/unity-lens-photos
+user      1957  0.0  0.3  75180  7580 ?        Sl   Jan22   0:00 /usr/lib/i386-linux-gnu/unity-shopping-daemon
+user      1959  0.0  0.5  85364 12092 ?        Sl   Jan22   0:00 /usr/bin/python /usr/lib/unity-lens-video/unity-lens-video
+user      2017  0.0  0.7  91008 14852 ?        Sl   Jan22   0:00 /usr/bin/python3 /usr/lib/unity-lens-files/unity-scope-gdocs
+user      2034  0.0  0.2  84556  4260 ?        Sl   Jan22   0:00 /usr/lib/i386-linux-gnu/unity-musicstore-daemon
+user      2046  0.0  0.6  99400 13692 ?        Sl   Jan22   0:00 /usr/bin/python /usr/lib/unity-scope-video-remote/unity-scope-video-remote
+user      2058  0.0  0.5  52144 12096 ?        Sl   Jan22   0:03 update-notifier
+root      2070  0.0  0.4  17880  8944 ?        S    Jan22   0:00 /usr/bin/python /usr/lib/system-service/system-service-d
+user      2074  0.0  3.0 165388 60856 ?        SNl  Jan22   0:03 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+user      2092  0.0  0.1  36544  3640 ?        Sl   Jan22   0:00 /usr/lib/i386-linux-gnu/deja-dup/deja-dup-monitor
+root      2401  0.0  0.0      0     0 ?        S    08:11   0:00 [migration/1]
+root      2403  0.0  0.0      0     0 ?        S    08:11   0:00 [ksoftirqd/1]
+root      2404  0.0  0.0      0     0 ?        S    08:11   0:00 [watchdog/1]
+root      2406  0.0  0.0      0     0 ?        S    08:11   0:00 [irq/45-mei]
+root      2447  0.0  0.0   3432  1324 ?        S    08:11   0:00 /sbin/udevd --daemon
+root      2806  0.0  0.0      0     0 ?        S    08:16   0:00 [kworker/0:1]
+lp        2990  0.0  0.0   6288  1400 ?        S    08:29   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+root      3109  0.0  0.0      0     0 ?        S    08:50   0:00 [flush-8:0]
+root      3131  0.0  0.0      0     0 ?        S    08:55   0:00 [kworker/1:2]
+root      3244  0.0  0.1  16528  2936 ?        Sl   08:55   0:00 lightdm --session-child 15 24
+user      3350  4.5  7.2 593580 147384 ?       Sl   08:56   2:00 /usr/lib/firefox/firefox
+user      3367  0.0  0.1  34660  2716 ?        Sl   08:56   0:00 /usr/lib/libunity-webapps/unity-webapps-service
+user      3402  0.3  0.8  92264 16296 ?        Sl   08:56   0:09 gnome-terminal
+user      3410  0.0  0.0   2404   728 ?        S    08:56   0:00 gnome-pty-helper
+user      3411  0.0  0.1   6592  3128 pts/1    Ss   08:56   0:00 bash
+user      3567  0.0  0.1  17280  2460 ?        Sl   09:09   0:00 /usr/lib/gvfs/gvfsd-metadata
+user      5154  0.0  0.6  93948 13492 ?        Sl   09:13   0:00 /usr/lib/firefox/plugin-container /usr/lib/gnash/libgnashplugin.so -greomni /usr/lib/firefox/omni.ja 3350 true plugin
+user      5158  0.2  1.0  99996 21576 ?        Sl   09:13   0:03 /usr/bin/gtk-gnash -u https://githubtraining.campfirenow.com/movies/soundmanager2.swf -U https://githubtraining.campfirenow.com/room/545942 -x 67173348 -j 1 -k 1 -F 21:22 -P allowscriptaccess=always -P bgcolor=#ffffff -P height=100% -P id=sm2movie -P name=sm2movie -P pluginspage=http://www.macromedia.com/go/getflashplayer -P quality=high -P src=/movies/soundmanager2.swf -P type=application/x-shockwave-flash -P width=100% -P wmode= -
+root      5235  0.0  0.0      0     0 ?        S    09:19   0:00 [kworker/u:1]
+root      5337  0.0  0.1   5492  3128 ?        S    09:27   0:00 /sbin/dhclient -d -4 -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /var/run/sendsigs.omit.d/network-manager.dhclient-eth0.pid -lf /var/lib/dhcp/dhclient-1cf3f65b-a65b-424b-b8a0-2589b7efd4bb-eth0.lease -cf /var/run/nm-dhclient-eth0.conf eth0
+user      7154  0.2  1.0  99692 20700 ?        Sl   09:30   0:01 /usr/bin/gtk-gnash -u https://github.com/flash/ZeroClipboard.swf?nocache=1358929857148 -U https://github.com/fdols/hellogitworld -x 67211541 -j 15 -k 15 -F 24:26 -P allowfullscreen=false -P allowscriptaccess=always -P bgcolor=#ffffff -P flashvars= -P height=100% -P loop=false -P menu=false -P name=global-zeroclipboard-flash-bridge -P pluginspage=http://www.macromedia.com/go/getflashplayer -P quality=best -P scale=exactfit -P src=/flash/ZeroClipboard.swf?nocache=1358929857148 -P type=application/x-shockwave-flash -P width=100% -P wmode=transparent -
+root      7756  0.0  0.0      0     0 ?        S    09:31   0:00 [kworker/1:1]
+user      7885  0.4  3.1 100092 62920 ?        Sl   09:31   0:02 /usr/bin/python /usr/share/oneconf/oneconf-service
+root      7924  0.0  0.0      0     0 ?        S    09:33   0:00 [kworker/u:2]
+user      8519  1.2  0.5  26752 11288 pts/1    Sl   09:37   0:01 wish /usr/bin/gitk --
+root      8547  0.0  0.0      0     0 ?        S    09:37   0:00 [kworker/1:0]
+root      8557  0.0  0.0      0     0 ?        S    09:38   0:00 [kworker/u:0]
+user      8561  0.0  0.0   5208  1212 pts/1    R+   09:39   0:00 ps -aux
