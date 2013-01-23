@@ -6,3 +6,84 @@ change1
  9423 pts/1    00:00:00 aspell
  9858 pts/1    00:00:00 wish
 10055 pts/1    00:00:00 ps
+  PID TTY      STAT   TIME COMMAND
+ 1298 ?        Ssl    0:00 gnome-session --session=ubuntu
+ 1334 ?        S      0:00 dbus-launch --autolaunch=04fc931f206cc43574c6915750d2b91f --binary-syntax --close-stderr
+ 1337 ?        Ss     0:00 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ 1338 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu
+ 1341 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu
+ 1342 ?        Ss     0:03 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ 1344 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+ 1348 ?        S      0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ 1351 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ 1361 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --start --components=gpg
+ 1366 ?        Sl     0:04 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+ 1436 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
+ 1449 ?        Sl     0:00 /usr/lib/gvfs//gvfsd-fuse -f /run/user/user/gvfs
+ 1551 ?        Sl     2:29 compiz
+ 1560 ?        Sl     0:00 bluetooth-applet
+ 1561 ?        Sl     0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ 1563 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+ 1567 ?        Sl     0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+ 1570 ?        Sl     0:01 nm-applet
+ 1572 ?        Sl     0:07 nautilus -n
+ 1580 ?        S      0:04 syndaemon -i 2.0 -K -R -t
+ 1588 ?        S<l    0:00 /usr/bin/pulseaudio --start --log-target=syslog
+ 1599 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ 1611 ?        S      0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+ 1613 ?        S      0:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+ 1624 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ 1629 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 1634 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+ 1641 ?        Sl     0:05 /usr/lib/bamf/bamfdaemon
+ 1645 ?        Ss     0:00 /bin/sh -c /usr/bin/gtk-window-decorator
+ 1646 ?        Sl     0:04 /usr/bin/gtk-window-decorator
+ 1760 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.10 /org/gtk/gvfs/exec_spaw/1
+ 1772 ?        Sl     0:00 /usr/lib/notify-osd/notify-osd
+ 1775 ?        Sl     0:02 /usr/lib/indicator-appmenu/hud-service
+ 1776 ?        Sl     0:06 /usr/lib/unity/unity-panel-service
+ 1794 ?        Sl     0:02 /usr/lib/indicator-datetime/indicator-datetime-service
+ 1799 ?        Sl     0:00 /usr/lib/indicator-printers/indicator-printers-service
+ 1800 ?        Sl     0:00 /usr/lib/indicator-messages/indicator-messages-service
+ 1801 ?        Sl     0:00 /usr/lib/i386-linux-gnu/indicator-application-service
+ 1803 ?        Sl     0:00 /usr/lib/indicator-session/indicator-session-service
+ 1804 ?        Sl     0:00 /usr/lib/indicator-sound/indicator-sound-service
+ 1825 ?        Sl     0:00 /usr/lib/evolution/evolution-source-registry
+ 1842 ?        Sl     0:01 /usr/bin/gnome-screensaver --no-daemon
+ 1850 ?        Sl     0:00 /usr/lib/gnome-online-accounts/goa-daemon
+ 1854 ?        Sl     0:00 /usr/lib/geoclue/geoclue-master
+ 1894 ?        Sl     0:00 /usr/lib/ubuntu-geoip/ubuntu-geoip-provider
+ 1899 ?        Sl     0:00 telepathy-indicator
+ 1905 ?        Sl     0:00 /usr/lib/telepathy/mission-control-5
+ 1912 ?        Sl     0:00 /usr/bin/signon-ui
+ 1915 ?        Sl     0:00 zeitgeist-datahub
+ 1921 ?        Sl     0:00 /usr/bin/zeitgeist-daemon
+ 1927 ?        Sl     0:00 /usr/lib/zeitgeist/zeitgeist-fts
+ 1929 ?        S      0:00 /bin/cat
+ 1947 ?        Sl     0:00 /usr/lib/unity-lens-applications/unity-applications-daemon
+ 1949 ?        Sl     0:00 /usr/lib/unity-lens-files/unity-files-daemon
+ 1951 ?        Sl     0:00 /usr/lib/gwibber/unity-gwibber-daemon
+ 1953 ?        Sl     0:00 /usr/lib/i386-linux-gnu/unity-music-daemon
+ 1955 ?        Sl     0:00 /usr/bin/python3 /usr/lib/unity-lens-photos/unity-lens-photos
+ 1957 ?        Sl     0:00 /usr/lib/i386-linux-gnu/unity-shopping-daemon
+ 1959 ?        Sl     0:00 /usr/bin/python /usr/lib/unity-lens-video/unity-lens-video
+ 2017 ?        Sl     0:00 /usr/bin/python3 /usr/lib/unity-lens-files/unity-scope-gdocs
+ 2034 ?        Sl     0:00 /usr/lib/i386-linux-gnu/unity-musicstore-daemon
+ 2046 ?        Sl     0:00 /usr/bin/python /usr/lib/unity-scope-video-remote/unity-scope-video-remote
+ 2058 ?        Sl     0:03 update-notifier
+ 2074 ?        SNl    0:03 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+ 2092 ?        Sl     0:00 /usr/lib/i386-linux-gnu/deja-dup/deja-dup-monitor
+ 3350 ?        Sl     5:39 /usr/lib/firefox/firefox
+ 3367 ?        Sl     0:00 /usr/lib/libunity-webapps/unity-webapps-service
+ 3402 ?        Sl     0:19 gnome-terminal
+ 3410 ?        S      0:00 gnome-pty-helper
+ 3411 pts/1    Ss     0:01 bash
+ 3567 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-metadata
+ 5154 ?        Sl     0:00 /usr/lib/firefox/plugin-container /usr/lib/gnash/libgnashplugin.so -greomni /usr/lib/firefox/omni.ja 3350 true plugin
+ 5158 ?        Sl     0:16 /usr/bin/gtk-gnash -u https://githubtraining.campfirenow.com/movies/soundmanager2.swf -U https://githubtraining.campfirenow.com/room/545942 -x 67173348 -j 1 -k 1 -F 21:22 -P allowscriptaccess=always -P bgcolor=#ffffff -P height=100% -P id=sm2movie -P name=sm2movie -P pluginspage=http://www.macromedia.com/go/getflashplayer -P quality=high -P src=/movies/soundmanager2.swf -P type=application/x-shockwave-flash -P width=100% -P wmode= -
+ 9412 pts/1    S      0:00 git gui
+ 9413 pts/1    Sl     0:09 wish /usr/lib/git-core/git-gui --
+ 9423 pts/1    S      0:00 aspell --mode=none --encoding=utf-8 pipe
+10018 ?        Sl     0:04 /usr/bin/gtk-gnash -u https://github.com/flash/ZeroClipboard.swf?nocache=1358933758202 -U https://github.com/fdols/hellogitworld/tree/frank-dols-1 -x 67450515 -j 15 -k 15 -F 27:35 -P allowfullscreen=false -P allowscriptaccess=always -P bgcolor=#ffffff -P flashvars= -P height=100% -P loop=false -P menu=false -P name=global-zeroclipboard-flash-bridge -P pluginspage=http://www.macromedia.com/go/getflashplayer -P quality=best -P scale=exactfit -P src=/flash/ZeroClipboard.swf?nocache=1358933758202 -P type=application/x-shockwave-flash -P width=100% -P wmode=transparent -
+10681 pts/1    Z      0:00 [wish] <defunct>
+10749 pts/1    R+     0:00 ps x

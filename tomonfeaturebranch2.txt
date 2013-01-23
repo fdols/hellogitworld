@@ -1,0 +1,19 @@
+total 72
+drwxr-xr-x  6 user user 4096 Jan 23 11:14 ./
+drwxr-xr-x 24 user user 4096 Jan 23 11:02 ../
+-rw-rw-r--  1 user user  112 Jan 23 09:32 build.gradle
+-rw-rw-r--  1 user user   23 Jan 23 09:32 fix.txt
+drwxrwxr-x  9 user user 4096 Jan 23 11:02 .git/
+-rw-rw-r--  1 user user  483 Jan 23 09:32 .gitattributes
+-rw-rw-r--  1 user user   41 Jan 23 10:55 .gitignore
+-rw-rw-r--  1 user user   37 Jan 23 10:55 .gitignore~
+-rw-rw-r--  1 user user 1620 Jan 23 10:50 README.txt
+drwxrwxr-x  2 user user 4096 Jan 23 09:32 resources/
+-rwxrwxr-x  1 user user   63 Jan 23 09:32 runme.sh*
+drwxrwxr-x  4 user user 4096 Jan 23 09:32 src/
+-rw-rw-r--  1 user user   17 Jan 23 09:32 timonthebranchfeature1
+-rw-rw-r--  1 user user 6727 Jan 23 11:13 tomonfeaturebranch1.txt
+-rw-rw-r--  1 user user  134 Jan 23 10:51 tomonfeaturebranch1.txt~
+-rw-rw-r--  1 user user    0 Jan 23 11:14 tomonfeaturebranch2.txt
+-rw-rw-r--  1 user user   16 Jan 23 09:32 .travis.yml
+drwxrwxr-x  2 user user 4096 Jan 23 09:32 xml/
